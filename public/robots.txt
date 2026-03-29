@@ -1,0 +1,6 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap (replace with your custom domain if you change it)
+Sitemap: https://muhammadfahad.netlify.app/sitemap.xml

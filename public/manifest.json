@@ -1,0 +1,17 @@
+{
+  "name": "Jawad Ahmed Khan | Backend Developer",
+  "short_name": "Jawad Khan",
+  "description": "Backend developer building scalable APIs and real-time systems. NestJS, Node.js, MongoDB.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#0ea5e9",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

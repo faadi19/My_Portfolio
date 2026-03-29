@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+*.local
+
+# Env (do not commit secrets or Formspree URL)
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.log
+.cache
+
+# Vite
+vite.config.ts.timestamp-*
