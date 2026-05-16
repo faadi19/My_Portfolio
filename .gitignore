@@ -6,7 +6,6 @@ dist/
 *.local
 
 # Env (do not commit secrets or Formspree URL)
-.env
 .env.local
 .env.*.local
 
