@@ -169,15 +169,6 @@ function GlowRing({
   )
 }
 
-/* ----- Subtle grid (depth) ----- */
-function GridPlane({ accent }: AccentColors) {
-  return (
-    <group position={[0, 0, -16]}>
-      <gridHelper args={[55, 55, accent, '#0f172a']} />
-    </group>
-  )
-}
-
 /* ----- Camera: slow orbit for cinema feel ----- */
 function CameraRig() {
   useFrame((state) => {
@@ -218,7 +209,6 @@ function Scene(hex: AccentColors) {
       <GlowRing radius={2.4} tube={0.028} color={hex.accentMuted} position={[2, -0.8, -7]} speed={[0.2, 0.12, 0.1]} />
       <GlowRing radius={1.8} tube={0.022} color={hex.accentLight} position={[-2.5, 0.5, -6]} speed={[-0.1, 0.18, 0.15]} />
       <GlowRing radius={4} tube={0.03} color={hex.accent} position={[0, 0, -10]} speed={[0.08, 0.15, 0.05]} />
-      <GridPlane {...hex} />
     </>
   )
 }
