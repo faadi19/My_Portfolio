@@ -27,6 +27,8 @@ function SkillPill({ name }: { name: string }) {
   return (
     <motion.li
       variants={item}
+      whileHover={{ scale: 1.05, y: -4, boxShadow: '0 8px 24px -10px rgba(var(--color-accent-rgb), 0.3)' }}
+      whileTap={{ scale: 0.98 }}
       className="flex items-center gap-2.5 rounded-xl border border-theme bg-theme-subtle px-4 py-3 transition-colors hover:border-theme hover:bg-theme-hover focus-ring"
     >
       <SkillIcon name={name} size={22} className="shrink-0" />

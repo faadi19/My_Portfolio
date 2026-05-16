@@ -7,6 +7,7 @@ import { GlobalParticles } from './GlobalParticles'
 import { ParticleBackground } from './ParticleBackground'
 import { SectionNav } from './SectionNav'
 import { EasterEgg } from './EasterEgg'
+import { CustomCursor } from './CustomCursor'
 
 export function Layout() {
   const location = useLocation()
@@ -15,6 +16,7 @@ export function Layout() {
 
   return (
     <div className="relative min-h-screen overflow-x-hidden">
+      <CustomCursor />
       <ScrollProgress />
       {isHome && <SectionNav />}
       {/* Star-like particles: full page, same style as hero */}
